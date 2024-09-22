@@ -16,10 +16,6 @@ unset __conda_setup
 
 
 alias cl=clear
-alias l1='python3 /Users/OmarPerez/Desktop/counts.py -S "1" -L "1"'
-alias l2='python3 /Users/OmarPerez/Desktop/counts.py -S "1" -L "2"'
-alias l3='python3 /Users/OmarPerez/Desktop/counts.py -S "1" -L "3"'
-alias bc='python3 /Users/OmarPerez/Desktop/booking_calc.py'
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 alias tplan="terraform plan"
@@ -29,6 +25,7 @@ alias tdestroy="terraform destroy"
 alias tinit="terraform init"
 alias tapplyauto="terraform apply --auto-approve"
 alias kat="cat"
+alias dc="docker ps -a"
 
 
 # for Brew
